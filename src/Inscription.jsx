@@ -31,7 +31,7 @@ const inscription = () => {
                     <div className='navBar'>
                         <h5>VALIDATION DE VOTRE PANIER</h5>
                     </div>
-                    <div className="text-animation"> Pour la validation de votre panier merci de remplir le formulaire</div>
+                    <div className="text-animation"> Pour la validation de votre panier merci de remplir le champ</div>
                     <form action='#' method='post' onSubmit={sendEmail} >
                         <div className='container-home'>
                             <div className="input-rigth">

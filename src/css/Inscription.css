@@ -38,6 +38,7 @@ body{
 
 .container-home{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -113,6 +114,7 @@ body{
 }
 .input-year{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .year input[type="text"]{
@@ -150,3 +152,46 @@ body{
     display: flex;
     justify-content: center;
 }
+
+
+
+@media screen and (max-width: 800px) {
+    .input-footer input{
+        width: 17rem;
+        margin-left: 2rem;
+        height: 2rem;
+        border-radius: .2rem;
+        border: none;
+        background-color: rgb(230, 230, 230);
+        
+    }
+    .navBar h5{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 17rem;
+        height: 2rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #80c207;
+        margin-top: 1rem;
+    }
+    .input-content-left{
+        margin-top: 3rem;
+        margin-left: 3.5rem;
+    }
+    .container-home{
+        display: flex;
+        justify-content: center;
+    }
+    .input-footer{
+        margin-left: 7.4rem;
+    }
+    .year{
+        margin-left: 3.2rem;
+    }
+    .cvc{
+        margin-left: 1rem;
+    }
+  }
