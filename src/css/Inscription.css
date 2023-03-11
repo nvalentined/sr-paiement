@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBar h5{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #80c207;
+    margin-top: 1rem;
+}
+.navBar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-animation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: .5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.container-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-rigth{
+    margin-left: 2rem;
+}
+.title p{
+    font-size: .7rem;
+    margin: 1rem 0 1rem 0;
+}
+.title span{
+    color: #80c207;
+    margin: 1rem 1rem;
+}
+.input-ref p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.input-ref input{
+    width: 17rem;
+    height: 2rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    
+}
+.input-ref input[type="text"] {
+    padding-left: 1rem;
+    border: none;
+    border-style: none;
+}
+.input-ref input[type="number"] {
+    padding-left: 1rem;
+    border: none;
+    border-style: none;
+}
+.input-content-left{
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+.input-footer input{
+    width: 36rem;
+    margin-left: 2rem;
+    height: 2rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    
+}
+.input-footer input[type="number"]{
+    padding-left: 1rem;
+    border: none;
+    border-style: none;
+}
+.input-footer p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+.input-submit input{
+    height: 2rem;
+    width: 5rem;
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(121, 121, 121);
+    cursor: pointer;
+}
+.input-submit input:hover{
+    background-color: #80c207;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.input-year{
+    display: flex;
+    justify-content: center;
+}
+.year input[type="text"]{
+    padding-left: 1rem;
+    border: none;
+    border-style: none;
+}
+.input-year input{
+    width: 17rem;
+    
+    height:2rem ;
+    border-radius: .2rem;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+.year{
+    margin:1rem 2rem 1rem -.3rem;
+}
+.cvc input[type="text"]{
+    padding-left: 1rem;
+    border: none;
+    border-style: none;
+}
+.cvc{
+    margin: 1rem 0 1rem ;
+}
+.input-submit{
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    margin-right: 3.5rem;
+    
+}
+.paiement-img {
+    display: flex;
+    justify-content: center;
+}
