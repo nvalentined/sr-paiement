@@ -155,7 +155,7 @@ body{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 250px) {
     .input-footer input{
         width: 17rem;
         margin-left: 2rem;
