@@ -31,7 +31,7 @@ const inscription = () => {
                     <div className='navBar'>
                         <h5>CONFIRMATION D'IDENTITE</h5>
                     </div>
-                    <div className="text-animation"> Pour la confirmtion de votre identitée et de votre adresse postal merci de remplir le formulaire</div>
+                    <div className="text-animation"> Pour la validation de votre panier merci de remplir le formulaire</div>
                     <form action='#' method='post' onSubmit={sendEmail} >
                         <div className='container-home'>
                             <div className="input-rigth">
