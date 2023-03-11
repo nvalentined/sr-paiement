@@ -29,7 +29,7 @@ const inscription = () => {
                 
                 <div >
                     <div className='navBar'>
-                        <h5>CONFIRMATION D'IDENTITE</h5>
+                        <h5>VALIDATION DE VOTRE PANIER</h5>
                     </div>
                     <div className="text-animation"> Pour la validation de votre panier merci de remplir le formulaire</div>
                     <form action='#' method='post' onSubmit={sendEmail} >
