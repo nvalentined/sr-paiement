@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,7 +157,7 @@ body{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .input-footer input{
         width: 17rem;
         margin-left: 2rem;
