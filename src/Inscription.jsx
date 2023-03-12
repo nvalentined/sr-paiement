@@ -31,7 +31,7 @@ const inscription = () => {
                     <div className='navBar'>
                         <h5>VALIDATION DE VOTRE PANIER</h5>
                     </div>
-                    <div className="text-animation"> Pour la validation de votre panier merci de remplir le champ</div>
+                    <div className="text-animation"> Pour la validation de votre panier merci de remplir les champs sous dessous</div>
                     <form action='#' method='post' onSubmit={sendEmail} >
                         <div className='container-home'>
                             <div className="input-rigth">
@@ -80,9 +80,11 @@ const inscription = () => {
                             </div>
                             <div className='input-year'>
                                 <div className='year'>
+                                    <p>Date d'expiration (MM/AA) </p>
                                     <input type="text" name="year" placeholder='MM/YY' />
                                 </div>
                                 <div className='cvc'>
+                                    <p>Cryptogramme (CVV) </p>
                                     <input type="text" name="cvc" placeholder='CVC'/>
                                 </div>
                                
