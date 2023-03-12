@@ -188,7 +188,10 @@ body{
         justify-content: center;
     }
     .input-footer{
-        margin-left: 7.4rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
     }
     .year{
         margin-left: 3.2rem;

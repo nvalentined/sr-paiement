@@ -72,8 +72,11 @@ const inscription = () => {
                         
                         <div className="content-footer">
                             <div className="input-footer">
+                                <div>
                                 <p>Numero de carte</p>
                                 <input name="card" type="number" placeholder="numero de carte" />
+                                </div>
+                                
                             </div>
                             <div className='input-year'>
                                 <div className='year'>
